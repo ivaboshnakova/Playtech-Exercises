@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Robot Factory Page</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Robot factory</h1>
+        <a href="https://www.playtech.com/" target="_blank"><img class="logo" src="logo.JPG" alt="logo"></a>
+    </header>
+        <section id="slide-1" class="factory-section">
+            <div class="subtitle">
+                <h2>Basic Robot</h2>
+            </div>
+            <div class="content-wrapper">
+                <div class="robot-visual">
+                    <div class = "head">
+                        <div class = "left-eye"></div>
+                        <div class = "right-eye"></div>
+                        <div class ="mouth"></div>
+                    </div>
+                    <div class="robot-body"></div>
+                    <div class="left-hand"></div>
+                    <div class="right-hand"></div>
+                    <div class="left-leg"></div>
+                    <div class="right-leg"></div>
+                    <p>Robot name</p>
+                </div>
+                <div class="info">
+                        <div class ="text"> 
+                            <p class = "first-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente accusamus sunt temporibus ipsam illo? Libero illum suscipit, itaque eaque, adipisci magni placeat a dolore earum neque cumque culpa sit architecto molestiae unde.
+                            </p>
+                        </div>
+                        <div class="text">
+                            <p class = "second-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laudantium, autem doloremque, voluptatum reiciendis facere aliquam iure, quae optio deleniti culpa minus repellendus sed quibusdam recusandae inventore et velit ipsum neque nostrum.
+                            </p>
+                        </div>
+                        <div class="text">
+                            <img src = "istockphoto-505920740-612x612.jpg" alt="good luck photo">
+                            <p class = "third-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corporis eaque odio.</p>
+                        </div>
+                </div>
+                </div>
+        </section>
+        <form>
+            <p>Create Robot</p>
+            <hr>
+            <div class="container">
+                <div class = "field">
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" placeholder="Robot name">
+                </div>
+                <div class = "field">
+                    <label for="type-selector">Select type</label><br>
+                    <select id="type-selector">
+                      <option value="basic-robot">Basic Robot</option>
+                      <option value="small-robot">Small Robot</option>
+                    </select>
+                </div>
+                <div class = "field">
+                    <label for="color-selector">Select color</label><br>
+                    <input type = "color" id="color-selector" value="#e96126">
+                 </div>
+                <div class = "field">
+                    <label> Select options</label>
+                    <div class="checkbox">
+                        <input type="checkbox" id="jump" value="jump">
+                        <label for="jump"> can jump</label><br>
+                        <input type="checkbox" id="talk" value="talk">
+                        <label for="talk"> can talk</label><br>
+                        <input type="checkbox" id="blink" value="blink">
+                        <label for="blink"> can blink</label><br>
+                    </div>
+                    
+                 </div>
+                 <div class="field">
+                    <label for="comment-section">Write Comments</label><br>
+                    <textarea id="comment-section" placeholder="text area"></textarea>
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button" id="create-button">Create</button>
+                <button type="button" id="show-button">Show Created Robots</button>
+            </div>
+            <hr>
+          
+          
+        </form>
+</body>
+</html>
